@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS WEB PAGE</title>
+    <style>
+        body {
+            background-image:url(https://miro.medium.com/max/3262/1*9zzfDl-bSgw5MZSmrE7F1Q.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            
+            
+        }
+        .container {
+            text-align: center;
+            border: 1px solid rgb(39, 56, 75);
+            margin:0 auto;
+            width: 60%;
+        }
+        img{
+        width: 80%;
+        height: 50%;
+        }
+        li{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 style="color:navy">CSS</h1>
+        <p>Explanation</p>
+        <p>History</p>
+        <p>Present</p>
+        <p>Future</p>
+        
+    <h4 style="color:navy">“CSS is used to define styles for your web pages, including the design, layout and variations in ... The style definitions are normally saved in external .css files.”</h4>
+
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.motocms.com%2Fblog%2Fen%2Fadvantages-and-disadvantages-of-css%2F&psig=AOvVaw2yEYYCcthF5RsXeS_o_oXr&ust=1589994382955000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMiRoOe0wOkCFQAAAAAdAAAAABAL" alt="CSS">
+
+
+    <ul>
+        <li>
+            <p style="color:navy"><strong>1999</strong>: CSS</p>
+        </li>
+        <li>
+            <p style="color:navy"><strong>2006</strong>: CSS</p>
+        </li>
+        <li>
+            <p style="color:navy"><strong>2015</strong>: CSS</p>
+        </li>
+        <li>
+            <p style="color:navy"><strong>2018</strong>: CSS</p>
+        </li>
+        <li>
+            <p style="color:navy"><strong>1966</strong>: CSS</p>
+        </li>
+    </ul>
+    <p>For more information about CSS please visit <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"><button>wikipedia</button></a></p>
+</div>
+</body>
+</html>
